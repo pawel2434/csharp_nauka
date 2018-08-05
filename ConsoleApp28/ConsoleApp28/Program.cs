@@ -16,11 +16,11 @@ namespace ConsoleApp28
 
             try
             {
-                Console.Write("ppodaj l1:");
+                Console.Write("ppodaj l1:  ");
                 l1 = double.Parse(Console.ReadLine());
-                Console.Write("ppodaj l1:");
+                Console.Write("ppodaj l2:  ");
                 l2 = double.Parse(Console.ReadLine());
-                Console.Write("ppodaj l1:");
+                Console.Write("ppodaj dzialanie:  ");
                 dzialanie = Console.ReadLine();
             }
             catch(Exception e)

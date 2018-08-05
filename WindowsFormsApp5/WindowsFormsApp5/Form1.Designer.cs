@@ -72,7 +72,7 @@
             this.b9.TabIndex = 2;
             this.b9.Text = "9";
             this.b9.UseVisualStyleBackColor = true;
-            this.b9.Click += new System.EventHandler(this.button9_Click);
+            this.b9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // b8
             // 

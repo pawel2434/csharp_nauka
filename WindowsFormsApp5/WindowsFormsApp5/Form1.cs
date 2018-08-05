@@ -24,105 +24,107 @@ namespace WindowsFormsApp5
 
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void Button10_Click(object sender, EventArgs e)
         {
-            Dzialanie()
+            Dzialanie(10);
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void Button9_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(9);
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void Button8_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(8);
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void Button7_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(7);
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Button6_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(6);
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Button5_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(5);
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(4);
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(3);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-
+            Dzialanie(2);
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button0_Click(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button0_Click(object sender, EventArgs e)
+        {
+            Dzialanie(0);
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
         {
             Dzialanie(1);
         }
 
-        private void button6_Click_1(object sender, EventArgs e)
+        private void Button6_Click_1(object sender, EventArgs e)
         {
-
+            Dzialanie(6);
         }
 
-        private void buttonsumy_Click(object sender, EventArgs e)
+        private void Buttonsumy_Click(object sender, EventArgs e)
         {
             RodzajDzialania = '=';
         }
 
-        private void buttonodejmowania_Click(object sender, EventArgs e)
+        private void Buttonodejmowania_Click(object sender, EventArgs e)
         {
             RodzajDzialania = '-';
         }
 
-        private void buttondzielenia_Click(object sender, EventArgs e)
+        private void Buttondzielenia_Click(object sender, EventArgs e)
         {
             RodzajDzialania = '/';
         }
 
-        private void buttondodawania_Click(object sender, EventArgs e)
+        private void Buttondodawania_Click(object sender, EventArgs e)
         {
             RodzajDzialania = '+';
         }
 
-        private void buttonmnorzenia_Click(object sender, EventArgs e)
+        private void Buttonmnorzenia_Click(object sender, EventArgs e)
         {
             RodzajDzialania = '*';
         }
         private void Dzialanie(int liczba)
         {
             LiczbaPierwsza += liczba;
-            tBwynik.Text = LiczbaPierwsza;
+           tBwynik.Text = LiczbaPierwsza;
 
         }
 
-        private void tBwynik_TextChanged(object sender, EventArgs e)
+        private void TBwynik_TextChanged(object sender, EventArgs e)
         {
 
         }
+
+        
     }
 }

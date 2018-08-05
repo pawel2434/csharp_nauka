@@ -24,7 +24,7 @@ namespace ConsoleApp13
             for (int i = 0; i < iloscPrzedmiotuw; i++)
             {
                 Console.WriteLine("podaj nazwe przedmiotu");
-                Console.WriteLine("Podaj  ocene: ");
+                Console.Write("Podaj  ocene: ");
 
                 suma += double.Parse(Console.ReadLine());
             }
